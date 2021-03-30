@@ -1,0 +1,29 @@
+.output {
+    font-weight:bold;
+  }
+  #payment {
+    text-decoration:underline;
+  }
+  #graph {
+    border:solid black 1px;
+    background-color: white;
+  }
+  th, td {
+    vertical-align: top;
+    font-family: 'Mulish';
+  }
+  table {
+      background-color: #e8f9f6;
+  }
+  @media only screen and (max-width: 715px) {
+    #th2, #graph {
+      display: none;
+    }
+  }
+  button {
+      background-color: #a38b4c;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+  }
+  
